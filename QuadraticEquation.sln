@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.vcxproj", "{0FBAE0F1-DFFF-457E-BC5E-443B5424E1E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeUnitTest", "NativeUnitTest\NativeUnitTest.vcxproj", "{FA1C6D8B-42B6-4F44-B0AA-856E76C55579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{0FBAE0F1-DFFF-457E-BC5E-443B5424E1E5}.Debug|Win32.Build.0 = Debug|Win32
 		{0FBAE0F1-DFFF-457E-BC5E-443B5424E1E5}.Release|Win32.ActiveCfg = Release|Win32
 		{0FBAE0F1-DFFF-457E-BC5E-443B5424E1E5}.Release|Win32.Build.0 = Release|Win32
+		{FA1C6D8B-42B6-4F44-B0AA-856E76C55579}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA1C6D8B-42B6-4F44-B0AA-856E76C55579}.Debug|Win32.Build.0 = Debug|Win32
+		{FA1C6D8B-42B6-4F44-B0AA-856E76C55579}.Release|Win32.ActiveCfg = Release|Win32
+		{FA1C6D8B-42B6-4F44-B0AA-856E76C55579}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
