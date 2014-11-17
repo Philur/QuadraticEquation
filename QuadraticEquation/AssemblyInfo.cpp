@@ -14,7 +14,7 @@ using namespace System::Security::Permissions;
 [assembly:AssemblyTitleAttribute("QuadraticEquation")];
 [assembly:AssemblyDescriptionAttribute("")];
 [assembly:AssemblyConfigurationAttribute("")];
-[assembly:AssemblyCompanyAttribute("")];
+[assembly:AssemblyCompanyAttribute("COMB AB")];
 [assembly:AssemblyProductAttribute("QuadraticEquation")];
 [assembly:AssemblyCopyrightAttribute("Copyright (c)  2014")];
 [assembly:AssemblyTrademarkAttribute("")];
@@ -31,10 +31,10 @@ using namespace System::Security::Permissions;
 // You can specify all the value or you can default the Revision and Build Numbers
 // by using the '*' as shown below:
 
-[assembly:AssemblyVersionAttribute("1.0.*")];
+[assembly:AssemblyVersionAttribute("1.1.*")];
 
 [assembly:ComVisible(false)];
 
-[assembly:CLSCompliantAttribute(true)];
+[assembly:CLSCompliantAttribute(false)]; // HACK CLS set to false to generate more issues! =)
 
 [assembly:SecurityPermission(SecurityAction::RequestMinimum, UnmanagedCode = true)];
