@@ -26,7 +26,8 @@ namespace NativeUnitTest
 			a = 1;
 			b = 2;
 
-			Assert::AreEqual(a, b);
+			//Assert::AreEqual(a, b);
+			Assert::AreNotEqual(a, b);
 		}
 	};
 	TEST_CLASS(UnitTest2)

@@ -35,6 +35,6 @@ using namespace System::Security::Permissions;
 
 [assembly:ComVisible(false)];
 
-[assembly:CLSCompliantAttribute(false)]; // HACK CLS set to false to generate more issues! =)
+[assembly:CLSCompliantAttribute(true)]; // HACK CLS set to false to avoid issues
 
 [assembly:SecurityPermission(SecurityAction::RequestMinimum, UnmanagedCode = true)];
